@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Submission</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <h1>Make Card </h1>
+      <form id="myForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter a name" required>
+  
+        
+        <label for="dueDate">Due Date:</label>
+        <input type="date" id="dueDate" name="dueDate" required >
+        
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" name="startDate" required >
+        <label for="description">Description:</label>
+        <input type="text" id="description" name="description" placeholder="Enter a description" required>
+        <input type="submit" id="button" value="Submit">
+      </form>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
